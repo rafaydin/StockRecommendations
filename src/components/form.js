@@ -33,7 +33,6 @@ export default class Form extends React.Component{
         const questions = Object.assign([], this.state.questions)
         questions[num-1] = question
         this.setState({questions: questions})
-
     }
 
     handleSubmit = () =>{
@@ -82,11 +81,11 @@ export default class Form extends React.Component{
                 })
                 }
                 <button onClick = {this.handleSubmit}>Submit</button> <br/> <br/>
-                {/* {
+                {
                 this.state.companies.map((company) =>{
                     return <div>Name: {company.name} | Percentage Match: {company.match}%</div>
                 })
-                } */}
+                }
             </div>
         )
     }

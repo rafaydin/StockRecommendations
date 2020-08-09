@@ -13,7 +13,7 @@ function App() {
   return (
     <Styles>
       <div className="App">
-        <h1>Stock Recomendations by Rafay Din</h1>
+        <h1>Ethical Investments</h1>
         <div>Please rank the importance of each company value below</div> <br/> <br/>
         <Form></Form>
       </div>
